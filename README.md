@@ -1,3 +1,3 @@
 VagrantProjects
 ===============
-LEaring how to use Vagarnt
+Learing how to use Vagrant
