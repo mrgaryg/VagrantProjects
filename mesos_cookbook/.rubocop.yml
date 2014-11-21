@@ -1,0 +1,19 @@
+AllCops:
+  Exclude:
+    - vendor/**/*
+    - bin/**/*
+
+ClassLength:
+  Enabled: false
+Documentation:
+  Enabled: false
+Encoding:
+  Enabled: false
+LineLength:
+  Enabled: false
+MethodLength:
+  Enabled: false
+ClassAndModuleChildren:
+  Enabled: false
+TrailingComma:
+  EnforcedStyleForMultiline: comma

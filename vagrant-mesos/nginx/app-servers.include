@@ -1,0 +1,29 @@
+#Marathon
+upstream backend1 {
+    ip_hash;
+	server mesos1:8086;
+}
+
+#Chronos
+upstream backend2 {
+    ip_hash;
+	server mesos1:8081;
+}
+
+#Mesos
+upstream backend5 {
+   ip_hash;
+   server mesos1:5050;
+}
+
+#Jenkins
+upstream backend6 {
+   ip_hash;
+   server mesos1:9000;
+}
+
+#Aurora
+upstream backend7 {
+   ip_hash;
+   server mesos1:9001;
+}
