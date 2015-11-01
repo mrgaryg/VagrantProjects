@@ -1,8 +1,8 @@
-FROM dockerfile/java:oracle-java8
+FROM java:8
 MAINTAINER mrgaryg
 
-RUN apt-get install maven && \
-    echo "====> installing maven" \
+RUN apt-get update && \
+    echo "====> installing maven" && \
 	apt-get install -y maven
 	
 WORKDIR /code
