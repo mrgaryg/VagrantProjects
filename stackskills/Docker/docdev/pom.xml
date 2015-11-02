@@ -76,7 +76,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>eduonix.dockerphaseone.BootstrapServer</mainClass>
+                    <mainClass>eduonix.dockerphaseone.HelloDocker</mainClass>
                 </configuration>
             </plugin>
         </plugins>

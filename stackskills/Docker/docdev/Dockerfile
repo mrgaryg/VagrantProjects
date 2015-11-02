@@ -1,5 +1,5 @@
 # download a image with java 8
-FROM dockerfile/java:oracle-java8
+FROM java:8
 MAINTAINER Eduonix
 # Install maven into the image
 RUN     apt-get update && \
