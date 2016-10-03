@@ -1,3 +1,3 @@
-VagrantProjects
+Vagrant Projects
 ===============
-Learing how to use Vagrant
+Learing how to use Vagrant for provisioning
