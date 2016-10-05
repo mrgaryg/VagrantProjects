@@ -1,0 +1,16 @@
+---
+
+# common
+- hosts: all
+  become: yes
+  gather_facts: no
+
+  roles:
+    - common
+
+# web
+- hosts: web
+  become: yes
+
+  roles:
+    - web

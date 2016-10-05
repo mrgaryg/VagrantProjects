@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+/.vagrant
+=======
 # OS-specific
 .DS_Store
 
@@ -111,3 +114,4 @@ Temporary Items
 .apdisk
 
 
+>>>>>>> 4e9300852d31499b14b2647bcbc013accba6ee21
