@@ -1,9 +1,0 @@
-
-                           _           _                       _       
-      Welcome to          | |         (_)                     | |      
-        File Manifest
-
-    bootstrap-mgmt.sh - Install/Config Ansible & Deploy Code Snippets
-             ansible  - Code Snippets
-               README - This file ;)
-          Vagrantfile - Defines Vagrant Environment
