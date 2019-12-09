@@ -56,17 +56,6 @@ Vagrant.configure("2") do |config|
     end
   end
 
-  # create zoo keeper
-  # config.vm.define :zk, autostart: false do |zk_config|
-  #   zk_config.vm.box = "centos/7"
-  #   zk_config.vm.hostname = "zk"
-  #   zk_config.vm.network :private_network, ip: "10.0.15.11"
-  #   zk_config.vm.network "forwarded_port", guest: 80, host: 8080
-  #   zk_config.vm.provider "virtualbox" do |vb|
-  #     vb.memory = "256"
-  #   end
-  # end
-
   # create some brokers servers
   # https://docs.vagrantup.com/v2/vagrantfile/tips.html
   (1..2).each do |i|
