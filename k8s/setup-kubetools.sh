@@ -46,11 +46,6 @@ sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
 
 echo "Disable swap (assuming that the name is /dev/centos/swap"
 sed -i 's/^\/dev\/mapper\/centos-swap/#\/dev\/mapper\/centos-swap/' /etc/fstab
-# TODO: Moved disabling swap to be implemented by vagrant
-# e.g.       node.vm.provision "shell", inline: "swapoff -a"
-# The next two libes should be removed after sufficient testing.
-# echo "Disabling swap"
-# swapoff -a && echo "Swap is off!!!"
 
 echo "Install k8s packages"
 yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
