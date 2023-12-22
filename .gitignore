@@ -113,4 +113,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
+# VS Code folders
+.vscode
