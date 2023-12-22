@@ -80,7 +80,7 @@ if [[ $HOSTNAME = "master" ]] ; then
     kubeadm init --pod-network-cidr 192.168.4.0/24  \
       --apiserver-advertise-address=192.168.4.10
     echo "Generate a join script"
-    token create --print-join-command > /vagrant/join.sh
+    kubeadm token create --print-join-command > /vagrant/join.sh
     [ -f /vagrant/join ] && chmod +x /vagrant/join.sh
     echo "Generating a token file for workers to join"
     kubeadm token  create > /vagrant/join.token
